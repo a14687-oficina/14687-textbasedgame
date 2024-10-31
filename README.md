@@ -11,7 +11,7 @@ incluem: Escolhas Interativas: O jogador decide entre caminhos, ações e respos
 O código é organizado em funções para facilitar a leitura e manutenção. Cada caminho e ação são encapsulados em funções, permitindo fácil adição de novas histórias ou opções no futuro. 
 <h2>Controle de Fluxo<h2/>
 Utilizei os códigos (if, elif, else) para determinar a continuação da história com base nas escolhas do jogador. Esses códigos permitem a criação de múltiplas ramificações na história. 
-<h2>estão de Dados<h2/>
+<h2>Gestão de Dados<h2/>
 As variáveis armazenam o progresso do jogador e suas escolhas. Por exemplo, variáveis como direita1, meio1 e esquerda1 guardam as decisões iniciais, permitindo que o jogo evolua conforme as preferências do jogador. Interatividade com o Utilizador A interatividade é realizada através de input(), onde os jogadores podem inserir suas escolhas. As entradas são tratadas para garantir que as respostas sejam válidas e que o jogo avance de acordo.
 <h2>Desafios e Soluções<h2/>
 Um desafio encontrado foi a complexidade crescente das ramificações da história. Para superá-lo, organizei as escolhas em blocos lógicos e utilizei comentários no código para manter a clareza. Outra dificuldade foi garantir que todas as escolhas levassem a um desfecho satisfatório. Para isso, revisei as narrativas e criei pontos de convergência. 
